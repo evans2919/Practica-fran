@@ -285,8 +285,11 @@ input:checked+.slider:before {
 
 .instagram {
     border-top: 5px solid;
-    border-top-color: var(--instagram-color);
+    /** Created at http://www.colorzilla.com/gradient-editor/ **/
+    transition: all 0.6s;
 }
+
+.instagram:hover {}
 
 .youtube {
     border-top: 5px solid;
@@ -320,11 +323,6 @@ input:checked+.slider:before {
     padding-top: 28px;
     padding-left: 20px;
     padding-right: 20px;
-    transition: all 0.3s;
-}
-
-.card-footer-item:hover {
-    background-color: var(--light-grayish-blue);
 }
 
 .card-footer-description {
