@@ -369,7 +369,7 @@ input:checked+.slider:before {
 }
 
 .attribution {
-    position: absolute;
+    position: abolute;
     top: 100%;
 }
 
@@ -394,5 +394,8 @@ input:checked+.slider:before {
     }
     .widgets-container {
         top: 200px;
+    }
+    .attribution {
+        display: none;
     }
 }
